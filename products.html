@@ -17,7 +17,7 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.9/dist/tailwind.min.css
 
 
 
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
             class="w-6 h-6 md:hidden">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
@@ -35,93 +35,111 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.9/dist/tailwind.min.css
         </ul>
     </nav>
 
+     <!--Side Navbar-->
+<section id="sidenav" class="bg-blue-200 fixed z-20 top-0 transition-all duration-1000" style="width:50%;height:100vh; right:-50%;">
+    <div class="text-right p-5">
+<p id="closenav" class="inline cursorpointer">X</p>
+    </div>
+    <ul class="flex flex-col gap-10 items-center text-gray-600">
+        <li>
+            <a class="hover:underline hover:text-black" href="index.html">Home</a>
+        </li>
+        <li>
+            <a class="hover:underline hover:text-black" href="products.html">Products</a>
+        </li>
+        <li>
+            <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+        </li>
+    </ul>
+</section>
+
 
 
 <section class="text-center">
     <h1 class="text-3xl font-bold mt-5">Our Products</h1>
-    <input type="text" class="border border-black bg-gray-100 w-4/6 p-2 mt-3" placeholder="Search for your products....">
+    <input id="search" type="text" class="border border-black bg-gray-100 w-4/6 p-2 mt-3" placeholder="Search for your products....">
 </section>
 
 <section class="p-4 text-center">
-    <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+    <div id="productcontainer" class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
         <div>
             <img src="./images/p1.png" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black" alt="">
-            <p>Decorative Plant</p>
+            <h1>Decorative Plant</h1>
             <p>$10</p>
         </div>
         <div>
             <img src="./images/p2.png" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black" alt="">
-            <p>Money Plant</p>
+            <h1>Money Plant</h1>
             <p>$35</p>
         </div>
         <div>
             <img src="./images/p3.png" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black" alt="">
-            <p>white Flower Plant</p>
+            <h1>White Flower Plant</h1>
             <p>$60</p>
         </div>
         <div>
             <img src="./images/p4.png" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black" alt="">
-            <p>Artificial Plant</p>
+            <h1>Artificial Plant</h1>
             <p>$15</p>
         </div>
         <div>
             <img src="./images/p5.png" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black" alt="">
-            <p>Decorative Plant</p>
+            <h1>Decorative Plant</h1>
             <p>$35</p>
         </div>
         <div>
             <img src="./images/p6.png" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black" alt="">
-            <p>New Pet plant</p>
+            <h1>New Pet plant</h1>
             <P>$40</P>
         </div>
         <div>
             <img src="./images/p7.png" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black" alt="">
-            <p>Indoor Plant</p>
+            <h1>Indoor Plant</h1>
             <p>$50</p>
         </div>
         <div>
             <img src="./images/p8.png" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black" alt="">
-            <p>White Hibiscus Plant</p>
+            <h1>White Hibiscus Plant</h1>
             <p>$37</p>
         </div>
         <div>
             <img src="./images/p9.png" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black" alt="">
-            <p>Decorative Plant</p>
+            <h1>Decorative Plant</h1>
             <p>$10</p>
         </div>
         <div>
             <img src="./images/p10.png" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black" alt="">
-            <p>Money Plant</p>
+            <h1>Money Plant</h1>
             <p>$35</p>
         </div>
         <div>
             <img src="./images/p11.png" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black" alt="">
-            <p>white Flower Plant</p>
+            <h1>white Flower Plant</h1>
             <p>$60</p>
         </div>
         <div>
             <img src="./images/p12.png" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black" alt="">
-            <p>Artificial Plant</p>
+            <h1>Artificial Plant</h1>
             <p>$15</p>
         </div>
         <div>
             <img src="./images/p13.png" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black" alt="">
-            <p>Decorative Plant</p>
+            <h1>Decorative Plant</h1>
             <p>$35</p>
         </div>
         <div>
             <img src="./images/p14.png" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black" alt="">
-            <p>Rose Plant</p>
+            <h1>Rose Plant</h1>
             <P>$40</P>
         </div>
         <div>
             <img src="./images/p15.png" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black" alt="">
-            <p>Indoor Flower Plant</p>
+            <h1>Indoor Flower Plant</h1>
             <p>$50</p>
         </div>
         <div>
             <img src="./images/p16.png" class="inline hover:shadow-xl transform hover:-translate-y-2 border border-black" alt="">
-            <p>White Hibiscus Plant</p>
+            <h1>White Hibiscus Plant</h1>
             <p>$37</p>
         </div>
     </div>
@@ -134,7 +152,7 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.9/dist/tailwind.min.css
         </section>
     </section>
 
-
+<script src="product.js"></script>
 
 </body>
 </html>
